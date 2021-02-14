@@ -20,7 +20,8 @@ In this project we attempted to create a binary classifier that is capable of pr
    * EIN
    * NAMES
    * STATUS
-       ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/dropping_cols.png?raw=True)
+   
+   ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/dropping_cols.png?raw=True)
  
  
 ### Compiling, Training, and Evaluating the model
@@ -28,15 +29,22 @@ In this project we attempted to create a binary classifier that is capable of pr
    * 4 hidden layers in an attempt to improve accuracy
    * 8 neurons in the first hidden layer, 3 in the second to keep the 1 - 3 ratio recommended for neurons per layer in machine learning
    * activation function for all layers except for output layer set to relu as it was yielding the most accurate results. Last layer was set to sigmoid activation for its ability to classify the binary output
+   
    ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/model_summary.png?raw=True)
  
 - Were you able to achieve the target model performance?
    * I was unable to increase the accuracy above 75 percent
+   
    ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/model_perf.png?raw=True)
+   
    * Accuracy visualization
+   
    ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/accuracy_vis.png?raw=True)
+   
    * Loss visualization
+   
    ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/loss_vis.png?raw=True)
+
 - What steps did you take to try and increase model performance
    * attempted to change accuracy using the different activation functions
    * attempted to change accuracy by using the different optimizers available
