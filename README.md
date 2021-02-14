@@ -10,6 +10,7 @@ In this project we attempted to create a binary classifier that is capable of pr
 ### Data Preprocessing
 - Target variable
    * In this case our target variable was the IS_SUCCESSFUL column because we would like to predict successful applications
+   
    ![alt-text](https://github.com/sebcampos/Neural_Network_Charity_Analysis/blob/master/images/splitting_data.png?raw=True)
  
 - Feature variables
